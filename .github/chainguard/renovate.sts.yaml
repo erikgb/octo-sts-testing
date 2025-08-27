@@ -2,8 +2,5 @@ issuer: https://token.actions.githubusercontent.com
 subject: repo:erikgb/octo-sts-testing:ref:refs/heads/main
 
 permissions:
-  contents: write
+  contents: read
   issues: write
-  statuses: write
-  pull-requests: write
-  workflows: write
