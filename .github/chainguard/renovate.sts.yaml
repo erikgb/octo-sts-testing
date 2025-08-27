@@ -7,5 +7,4 @@ permissions:
   issues: write
   pull_requests: write
   statuses: write
-  vulnerability_alerts: read
   workflows: write
