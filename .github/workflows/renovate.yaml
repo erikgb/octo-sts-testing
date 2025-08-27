@@ -13,6 +13,9 @@ jobs:
 
     if: github.repository == 'erikgb/octo-sts-testing'
 
+    permissions:
+      id-token: write # Needed to federate tokens.
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.2
