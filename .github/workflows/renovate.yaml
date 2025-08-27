@@ -25,7 +25,7 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
       - name: Octo STS Token Exchange
-        uses: octo-sts/action@main
+        uses: octo-sts/action@e480437973a6f6ac2e9caa40ecabedc870d76395 # main
         id: octo-sts
         with:
           scope: erikgb/octo-sts-testing
