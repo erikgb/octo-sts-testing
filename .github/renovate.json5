@@ -3,9 +3,11 @@
   extends: [
     'config:best-practices',
     ':gitSignOff',
-    ':disableVulnerabilityAlerts',
     ':prConcurrentLimit10', // Set a limit to avoid too many PRs, at least on the first run
     ':prHourlyLimitNone',
+  ],
+  labels: [
+    'dependencies',
   ],
   timezone: 'Europe/London',
 }
